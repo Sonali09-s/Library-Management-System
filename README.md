@@ -47,11 +47,11 @@ Currently not in the file
 mvn clean install
 mvn spring-boot:run
 
-5.| Method | Endpoint          | Description            | Auth Required       |
-| ------ | ----------------- | ---------------------- | ------------------- |
-| POST   | `/api/auth/login` | Authenticate & get JWT | ❌ No                |
-| GET    | `/api/books`      | Get all books          | ✅ Yes               |
-| POST   | `/api/issue`      | Issue book to user     | ✅ Yes (Admin/Staff) |
+Method	   Endpoint	      Description	             Auth Required
+POST	  /api/auth/login	  Authenticate & get JWT	   No
+GET	    /api/books	      Get all books	             No
+POST	 /api/issue	        Issue book to user	       Yes (Admin/Staff)
+
 
 💡 Why I Built This
 I developed this project to master Spring Boot 3 migration challenges and implement a secure, stateless authentication architecture. It handles complex entity mappings (DTOs) and provides clean analytics for library inventory.
