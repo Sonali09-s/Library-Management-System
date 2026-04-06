@@ -1,0 +1,20 @@
+package search;
+
+public enum SearchOperation {
+	EQUAL_TO,
+    NOT_EQUAL,
+	LIKE,
+	IN,
+	NOT_IN,
+	GREATER_THAN,
+	LESS_THAN,
+	GREATER_THAN_EQUAL,
+	LESS_THAN_EQUAL,
+	IS_NULL,
+	NOT_NULL,
+	STARTS_WITH, 
+    ENDS_WITH,
+    BETWEEN,
+    UNIQUE,
+    GROUP_BY
+}
