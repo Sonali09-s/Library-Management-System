@@ -1,7 +1,7 @@
-📚 Library Management System (Backend)
+Library Management System (Backend)
 A robust Spring Boot 3.x RESTful API designed to manage library operations, featuring secure user authentication and advanced reporting.
 
-🚀 Key Features
+Key Features
 JWT Security: Full authentication and authorization flow using io.jsonwebtoken.
 
 Book Management: CRUD operations for books, categories, and authors.
@@ -12,7 +12,7 @@ Analytics: Percentage-based reporting for book categories and availability.
 
 User Roles: Support for Guest and Normal user permissions.
 
-🛠️ Tech Stack
+Tech Stack
 Java 17
 
 Spring Boot 3.3.4
@@ -25,7 +25,7 @@ MySQL (Database)
 
 Maven (Dependency Management)
 
-⚙️ Setup & Installation
+Setup & Installation
 1. Prerequisites
 JDK 17 or higher
 
